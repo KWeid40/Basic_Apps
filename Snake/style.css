@@ -1,0 +1,15 @@
+#snake-canvas {
+  border: solid black 1px;
+  background: black;
+}
+#snake-game {
+  padding-left: 15px;
+}
+#snake-board {
+  height: 530px;
+  position: relative;
+}
+#score {
+  color: green;
+  text-align: right;
+}

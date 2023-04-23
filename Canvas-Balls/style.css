@@ -1,0 +1,16 @@
+#canvas-container {
+  position: relative;
+  width: 100%;
+}
+#canvas-container,
+canvas,
+#over-canvas {
+  position: absolute;
+}
+#over-canvas {
+  padding-left: 15px;
+}
+
+.first-c {
+  background-color: aliceblue;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="snake-game">
+      <h1>Snake</h1>
+      <p>The Game:</p>
+      <div>
+        <p>Please use the arrow keys on keyboard to change the direction</p>
+        <a href="javascript: startSnake();" id="start"> Start</a>
+        <a href="javascript: gamereset();" id="reset"> Reset</a><br /><br />
+        <a id="score">Score: 0</a>
+      </div>
+      <div id="snake-board">
+        <canvas id="snake-canvas"> </canvas>
+      </div>
+    </div>
+    <script src="snake.js"></script>
+  </body>
+</html>

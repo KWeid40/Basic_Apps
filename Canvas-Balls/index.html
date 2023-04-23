@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <link href="style-canvas.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+
+  <div id="canvas-container">
+    <canvas class="first-c" id="first-canvas"> </canvas>
+    <div id="over-canvas">
+      <h1>How many bubbles?</h1>
+
+      <input
+        type="range"
+        value="500"
+        min="200"
+        max="3000"
+        id="slider"
+        oninput="this.nextElementSibling.value = this.value"
+      />
+      <output>500</output>
+    </div>
+  </div>
+  <script src="canvas.js"></script>
+  <body></body>
+</html>

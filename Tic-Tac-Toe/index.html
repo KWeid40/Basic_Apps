@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <div class="tictac">
+    <body onload="startGame()">
+      <h1>Tick Tac Toe</h1>
+      <p>The Game:</p>
+      <br />
+      <div id="message">placeholder</div>
+      <br />
+      <div id="board">
+        <table id="table" border="1">
+          <tr>
+            <td id="s1" class="tile" onClick="nextMove(this)"></td>
+            <td id="s2" class="tile" onClick="nextMove(this)"></td>
+            <td id="s3" class="tile" onClick="nextMove(this)"></td>
+          </tr>
+          <tr>
+            <td id="s4" class="tile" onClick="nextMove(this)"></td>
+            <td id="s5" class="tile" onClick="nextMove(this)"></td>
+            <td id="s6" class="tile" onClick="nextMove(this)"></td>
+          </tr>
+          <tr>
+            <td id="s7" class="tile" onClick="nextMove(this)"></td>
+            <td id="s8" class="tile" onClick="nextMove(this)"></td>
+            <td id="s9" class="tile" onClick="nextMove(this)"></td>
+          </tr>
+        </table>
+      </div>
+      <div><a href="javascript: startGame();" id="restart"> New Game</a></div>
+    </body>
+  </div>
+
+  <script src="tictac.js"></script>
+</html>
